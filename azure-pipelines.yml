@@ -1,6 +1,7 @@
 jobs:
 - job: Windows
   pool:
+    name: default
     vmImage: 'windows-latest'
   steps:
   - script: echo hello from Windows
